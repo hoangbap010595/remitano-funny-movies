@@ -17,6 +17,7 @@ Fullstack applicants must complete 4 features.
 # 2. Prerequisites
 
 * State-of-the-art architecture with `NodeJS`, `Prisma` and domain-driven design
+* Implement the real-time notifications feature using WebSockets `socket.io` and background jobs `redis`.
 * Front-end using `ReactJS` with `antd` UI library
 * Cross-platform: run it on Windows, Linux, or Mac
 * Supports `Docker` out of the box for easy deployment
@@ -251,7 +252,7 @@ chmod +x backend-start-docker.sh
 ./backend-start-docker.sh
 ```
 
-Now open up [localhost:3000](http://localhost:3000) to verify that your nest server is running.
+Now open up [localhost:3000](http://localhost:3000) to verify that your backend server is running.
 
 When you run your Backend application in a Docker container update your [.env](.env) file
 
@@ -279,7 +280,7 @@ If `DATABASE_URL` is missing in the root `.env` file, which is loaded into the D
 ```
 
 ## Frontend
-See the [Dockerfile](./Dockerfile) on how to build a Docker image of your Nest server.
+See the [Dockerfile](./Dockerfile) on how to build a Docker image of your Frontend server.
 
 See the folder [.docker](./docker), open the file `front-evn.sh` and sets the required environments `REACT_APP_API_URL` and `REACT_APP_WEBSOCKET_URL`
 
