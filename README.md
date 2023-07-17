@@ -1,3 +1,5 @@
+### Candidate: Le Cong Hoang - lchoang1995@gmail.com
+
 # 1. Instructions
 
 Fullstack applicants must complete 4 features.
