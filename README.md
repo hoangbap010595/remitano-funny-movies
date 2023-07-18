@@ -195,7 +195,7 @@ git clone https://github.com/hoangbap010595/remitano-funny-movies-frontend.git
 cd remitano-funny-movies-frontend
 ```
 
-Install the dependencies for the Backend application:
+Install the dependencies for the Frontend application:
 
 ```bash
 # npm
@@ -292,7 +292,7 @@ See the folder [.docker](./docker), open the file `front-evn.sh` and sets the re
 
 # replace with name of the application container
 + REACT_APP_API_URL="https://rfm-demo-be.thocbeauty.com/graphql"
-+ REACT_APP_WEBSOCKET_URL="https://rfm-demo-ws.thocbeauty.com"
++ REACT_APP_WEBSOCKET_URL="wss://rfm-demo-ws.thocbeauty.com"
 ```
 
 Now to build a Docker image and start the container, run:
